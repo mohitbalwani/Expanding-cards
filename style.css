@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+ 
+* {
+box-sizing: border-box;
+}
+ 
+body {
+font-family: 'Roboto', sans-serif;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+overflow: hidden;
+margin: 0;
+}
+
+.container{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    /* border: 2px solid black; */
+}
+
+.cards{
+    height: 85vh;
+    margin: 10px 10px;
+    /* padding: 1rem; */
+    background-color: skyblue;
+    /* border: 2px solid black; */
+    border-radius: 50px;
+    position: relative;
+    flex: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 700ms ease-in;
+}
+
+#card1{
+    background-image: url('Parrot.tif');
+}
+    
+#card2{
+    background-image: url('Zebra.tif');
+}
+
+#card3{
+    background-image: url('Owl.tif');
+}
+
+#card4{
+    background-image: url('Penguin.tif');
+}
+
+#card5{
+    background-image: url('Eagle.tif');
+}
+
+.cards a{
+    text-decoration: none;
+    font-weight: 600;
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    opacity: 0;
+}
+
+.cards.active{
+    flex: 5;
+}
+
+.cards.active a{
+    opacity: 1;
+    transition:opacity 0.5s ease-in 0.4s;
+}
+
