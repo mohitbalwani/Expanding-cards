@@ -36,23 +36,23 @@ margin: 0;
 }
 
 #card1{
-    background-image: url('Parrot.tif');
+    background-image: url('Parrot.jpg');
 }
     
 #card2{
-    background-image: url('Zebra.tif');
+    background-image: url('Zebra.jpg');
 }
 
 #card3{
-    background-image: url('Owl.tif');
+    background-image: url('Owl.jpg');
 }
 
 #card4{
-    background-image: url('Penguin.tif');
+    background-image: url('Penguin.jpg');
 }
 
 #card5{
-    background-image: url('Eagle.tif');
+    background-image: url('Eagle.jpg');
 }
 
 .cards a{
